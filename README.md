@@ -1,4 +1,4 @@
-# data cleaning and analysis data using Microsoft SQL studio manager
+# Microsoft SQL studio manager data cleaning and analysis
 
 # Clean and specify data: In this example, let's say the client for our company wants to ONLY analyze data for graduates, post-graduates, and singles. In addition, to properly use data, we need to remove "$" from income, remove unknown marital statuses, and reformat book months to years.
 
