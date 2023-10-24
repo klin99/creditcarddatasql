@@ -11,3 +11,4 @@
 # 4) What is the difference of average total transaction amount between graduate and post graduate level clients?
 
 # These questions help our client understand their target's demographics and spending amount. We also get to directly compare graduates and post graduates. The parameters of what we measure can be changed (for example if the client wants to focus on married instead of single, high school graduates instead of those with higher education, and specific income categories. 
+# 
