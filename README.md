@@ -1,10 +1,8 @@
-# creditcarddatasql
-# data cleaning and analyzing credit card data using microsoft sql studio manager
+# data cleaning and analysis data using Microsoft SQL studio manager
 
-# We first have to clean up and specify the data. For this example, let's say the client for our company wants to only analyze data on graduates, post-graduates, and single people. 
-# To clean the rest of the data, we want to take out the "$" in income category (to make the column all values), the unknowns in marital status (because we want only single clients), and to reformat months on book to years. 
+# Clean and specify data: In this example, let's say the client for our company wants to ONLY analyze data for graduates, post-graduates, and singles. In addition, to properly use data, we need to remove "$" from income, remove unknown marital statuses, and reformat book months to years.
 
-# Our script performs the following tasks:
+# Our code script performs the following tasks:
 # Filters the data to select existing customers with specific education and marital status, making the "Income_Category" column nullable.
 # Updates the "Income_Category" values to NULL for entries with 'Unknown' income.
 # Modifies the "Income_Category" by removing the dollar sign ($) for specific customer groups.
@@ -15,4 +13,4 @@
 # Compares the average total transaction amount between graduate and post-graduate clients.
 # This script is designed for cleaning and extracting insights from the credit card customer dataset and can serve as a reference for similar data analysis projects.
 
-# These questions help our client understand their target's demographics and spending amount. We also get to directly compare graduates and post graduates. The parameters of what we measure can be changed (for example if the client wants to focus on married instead of single, high school graduates instead of those with higher education, and specific income categories. 
+# These inquiries facilitate a comprehension of our client's target demographics and expenditure patterns. Additionally, they allow for a direct comparison between graduates and postgraduates. It's important to note that we can adjust the parameters of our measurements as per the client's preferences, such as shifting the focus from singles to married individuals, transitioning from higher education to high school graduates, and specifying income categories.
