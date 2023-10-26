@@ -1,4 +1,5 @@
 # Data Cleaning and Analysis with Microsoft SQL Server Management Studio
+
 # Data Cleaning and Specification
 # In this analysis using Microsoft SQL Server Management Studio, we focus on cleaning and specifying the data to meet specific client requirements. The objective is to analyze data for individuals with graduate or post-graduate education levels who are single. The data cleaning tasks include removing the dollar sign ($) from the income, eliminating records with unknown marital statuses, and reformatting the "Months_on_book" column into years.
 
@@ -10,6 +11,7 @@
 # Update "Income_Category" values to NULL for entries with 'Unknown' income.
 # Modify "Income_Category" by removing the dollar sign ($) for specific customer groups.
 # Add a new column, "Yearsonbook," calculated from "Months_on_book."
+
 # Data Analysis Queries
 # Analyze if clients with higher credit limits have a higher average transaction count.
 # Determine the difference in average total transaction amounts between graduate and post-graduate clients.
